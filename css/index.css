@@ -73,19 +73,22 @@ html,body{
 }
 .title{
     width: 100%;
-    height:6%;
+    height:7%;
     line-height: .8rem;
     text-align: center;
     background: #00b271;
     color:#fff;
-    font-size: .44rem;
+    font-size: .4rem;
+}
+.first{
+    height: 93%;
 }
 .pageFir .resume{
     display: inline-block;
-    padding: .3rem .5rem;
+    padding: .3rem ;
     font-size: .45rem;
     width: .45rem;
-    height: 2rem;
+    height: 1.5rem;
     color: #ff6700;
     font-weight: 900;
     -webkit-transform: rotate3d(0, 0, 1, -200deg);
@@ -97,6 +100,7 @@ html,body{
 }
 .pageFir .put{
     float: right;
+    height: 30%;
 }
 .pageFir .hello{
     padding-top: .5rem;
@@ -116,19 +120,19 @@ html,body{
     display: block;
     color: #0fb200;
     font-size: .3rem;
-    -webkit-transform: translate3d(0, -3000px, 0);
-    transform: translate3d(0, -3000px, 0);
+    //-webkit-transform: translate3d(0, -3000px, 0);
+    //transform: translate3d(0, -3000px, 0);
 }
 #page1 .good{
     animation: bounceInDown 1s .9s both ;
     -webkit-animation: bounceInDown 1s .9s both;
 }
 .pageFir .photo1{
-    margin: .2rem auto;
+    margin: 10% auto 0;
     border: .2rem solid #98E0E6;
     border-radius: 50%;
     width: 50%;
-    height: 20%;
+    height: 25%;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
 }
@@ -142,9 +146,9 @@ html,body{
     border-radius: 50%;
 }
 .pageFir .photo2{
-    margin: .7rem auto;
+    margin: 10% auto 0;
     width: 100%;
-    height: 70%;
+    height: 40%;
 }
 #page1 .photo2{
     animation: bounceInLeft 1.8s both;
@@ -152,7 +156,7 @@ html,body{
 }
 .pageFir .photo2 img{
     width: 100%;
-    height: 100%;
+    height: 80%;
     border-radius: .5rem;
 }
 
